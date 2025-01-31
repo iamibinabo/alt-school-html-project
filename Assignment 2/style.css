@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 1.25rem;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 1.25rem; 
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #0066cc;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0066cc;
+    margin: 0 0.625rem; 
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1.25rem; 
+    color: #666;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.25rem 0; 
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.75rem; 
+    text-align: left;
+}
+
+th {
+    background-color: #0066cc;
+    color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 0.3125rem 0; 
+}
+
+
+.media-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.875rem auto; 
+    max-width: 50rem; 
+    background-color: #fff;
+    padding: 1.25rem; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); 
+}
+
+
+.media-container h2 {
+    font-size: 1.5rem;
+    color: #0066cc;
+    margin-bottom: 0.9375rem; 
+}
+
+.media-container img,
+.media-container video {
+    width: 100%; 
+    max-width: 37.5rem; 
+    height: auto; 
+    margin-bottom: 1.25rem; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2); 
+}
+
+.media-container audio {
+    width: 100%; 
+    max-width: 37.5rem;
+    margin-bottom: 1.25rem; 
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Media Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Media Page</h1>
+        <p>This page showcases a powerful message about who I am through various media elements.</p>
+        <nav>
+            <a href="table.html">AltSchool Courses (Table Page)</a>
+        </nav>
+    </header>
+    
+    <div class="media-container">
+        <h2>Responsive Picture</h2>
+        <picture>
+            <img src="./IMAGES/i-am-affirmations-list.jpg" alt="Ibinabo Abraham">
+            <source media="(max-width: 600px)" srcset="mobile.jpg">
+            <source media="(max-width: 1024px)" srcset="tablet.jpg">
+            <source media="(min-width: 1025px)" srcset="laptop.jpg">
+        </picture>
+    </div>
+
+    <div class="media-container">
+        <h2>Introductory Video</h2>
+        <video controls>
+            <source src="./Video/WhatsApp Video 2025-01-31 at 03.38.58_32e23610.mp4" type="video/mp4">
+            <p>Your browser does not support the video tag.</p>
+        </video>
+    </div>
+
+    <div class="media-container">
+        <h2>Audio Message</h2>
+        <audio controls>
+            <source src="./Audio/WhatsApp Audio 2025-01-27 at 21.56.58_57c6bd95.dat.unknown" type="audio/mpeg">
+           
+            <p>Your browser does not support the audio element.</p>
+        </audio>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Ibinabo A. All rights reserved.</p>
+    </footer>
+</body>
+</html>
